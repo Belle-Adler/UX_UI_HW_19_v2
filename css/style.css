@@ -1,0 +1,283 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-family: 'Lora', serif;
+}
+
+.logo{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 32px;
+  margin-top: -10px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #7F647A;
+  padding: 15px;
+}
+
+h1 {
+  color: #584454;
+}
+
+.subheading{
+color: #584454;
+}
+
+.headingemphasis{
+  color: #9F88AA;
+}
+header ul {
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: white;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: dotted 2px #53004B;
+}
+
+button {
+  padding: 15px;
+  background-color: white;
+  color: #53004B;
+  font-size: 15px;
+  border: 1px solid #53004B;
+  border-radius: 25px;
+}
+
+button:hover{
+background-color:#53004B;
+color:white;
+}
+
+.greycolor{
+  color: grey;
+}
+
+.pbold{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+footer {
+  background-color: #7F647A;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+/* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color:white;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+#myBtn{
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalbutton{
+ padding-inline-end: 10px;
+}
+
+/* My Platforms Accordians*/
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #E9DFE8;
+  border: solid 1px #E9DFE8;
+  cursor: pointer;
+}
+
+#flipheading{
+  color: white;
+}
+
+.unfliptext{
+  color: white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.profilepic{
+  cursor: pointer;
+}
+
+.smoothscrolling{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 140px;
+  text-align: center;
+}
+
+.middleimage{
+padding-left: 200px;
+height:100px;
+display: flex;
+justify-content: baseline;
+}
+
+.leftbox{
+  background-color: #A096A6;
+  height: 100%;
+}
+
+.scrollingtext{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 40px;
+color: white;
+text-decoration: underline 4px;
+font-size: 22px;
+display: flex;
+justify-content: center;
+}
+
+.rightbox{
+  background-color: #A096A6;
+  height: 100%;
+}
+
+.column{
+float:left;
+width: 16%;
+}
+
+.row{
+  display: table;
+  height: 200px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
